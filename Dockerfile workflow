@@ -11,7 +11,5 @@ COPY index.html /var/www/html/index.html
 
 VOLUME [" /myvolume1"]
 
-ADD https://ubuntu.com/server/docs/package-management
-
 EXPOSE 80
 
