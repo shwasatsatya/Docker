@@ -2,7 +2,6 @@ FROM ubuntu
 
 WORKDIR /tmp
 
-MAINTAINER sallo <salonisatyajeet@gmail.com>
 
 RUN apt-get update -y  && \
     apt-get install apache2 -y
