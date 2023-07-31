@@ -2,6 +2,8 @@ FROM ubuntu
 
 WORKDIR /tmp
 
+MAINTAINER saloni
+
 
 RUN apt-get update -y  && \
     apt-get install apache2 -y
