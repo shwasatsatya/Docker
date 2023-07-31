@@ -2,7 +2,7 @@ FROM ubuntu
 
 WORKDIR tmp/
 
-MAINTAINER saloni <salonisinha44@gmail.com>
+#MAINTAINER saloni <salonisinha44@gmail.com>
 
 RUN apt-get update -y
 
